@@ -1,0 +1,19 @@
+# Models — too large for git, downloaded by install.sh / docs/SETUP.md
+*.gguf
+*.onnx
+*.onnx.json
+vosk-model-*/
+vosk-model-*.zip
+
+# Runtime artifacts
+*.wav
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+vosk-env/
+
+# OS / editor
+.DS_Store
+.vscode/
